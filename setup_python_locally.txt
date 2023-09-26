@@ -1,0 +1,48 @@
+
+
+### 1. Download Python:
+
+1. Visit the official Python website at https://www.python.org/downloads/windows/ using your web browser.
+
+2. You will see two versions: Python 3.x and Python 2.x. Choose Python 3.x as Python 2 is no longer actively supported.
+
+3. Click on the "Download Python x.x.x" button (x.x.x represents the current version number). It's usually a large button in the center of the page.
+
+4. On the next page, scroll down to the "Files" section and select the Windows installer that matches your system architecture. Most modern PCs use the 64-bit version, but if you have an older PC, you might need the 32-bit version. Click on the installer link to start the download.
+
+### 2. Run the Python Installer:
+
+1. Once the installer is downloaded, locate the file (usually in your Downloads folder) and double-click on it to run the installer.
+
+2. In the installer window, make sure to check the box that says "Add Python x.x to PATH." This is important as it allows you to run Python from the Command Prompt more easily.
+
+3. Click the "Install Now" button. Python will be installed with the default settings.
+
+4. The installer will copy Python to your system. Once it's done, you'll see a screen that says "Setup was successful." You can now close the installer.
+
+### 3. Verify Python Installation:
+
+To verify that Python has been installed correctly, open the Command Prompt:
+
+1. Press `Windows + R` on your keyboard, type `cmd`, and press Enter.
+
+2. In the Command Prompt, type the following command and press Enter:
+
+   ```
+   python --version
+   ```
+
+   This command will display the installed Python version. Make sure it matches the version you downloaded.
+
+### 4. Install a Code Editor or IDE (Optional):
+
+While you can write Python code in a simple text editor like Notepad, it's recommended to use a code editor or integrated development environment (IDE) for a better coding experience. Some popular choices for Python development on Windows include:
+
+- **Visual Studio Code (VSCode):** Download and install it from https://code.visualstudio.com/.
+- **PyCharm:** Download the free Community Edition from https://www.jetbrains.com/pycharm/download/.
+
+### 5. Start Coding:
+
+You're now ready to start writing Python code on your Windows laptop. You can launch your code editor/IDE and begin creating Python programs.
+
+To run Python code, open your Command Prompt, navigate to the directory where your Python script is located using the `cd` command, and then execute your Python script using the `python` command followed by your script's filename.
